@@ -581,4 +581,22 @@ body .footer .medium-container ul .name a:hover {
   font-size: 30px;
   color: greenyellow;
 }
+
+@media only screen and (max-width: 1270px) {
+  nav {
+    width: 100%;
+  }
+  nav .container {
+    width: 1046px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
+  nav .container {
+    width: 822px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

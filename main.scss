@@ -55,14 +55,12 @@ body {
         top: 0;
         z-index: 9999;
         background-color: rgb(33, 37, 33);
-
         .container{
             display: flex;
             justify-content: space-between;
             align-items: center;
             .logo {
                 padding: 10px 0;
-    
                 a {
                     text-decoration: none;
                     font-size: 20px;
@@ -503,4 +501,22 @@ body {
 
 
 
-@media only 
+@media only screen and (max-width: 1270px){
+    nav{
+        width: 100%;
+        .container{
+            width: 1046px;
+        
+        }   
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    nav{
+        width: 100%;
+        .container{
+            width: 822px;
+        
+        }   
+    }
+}
